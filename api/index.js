@@ -7,7 +7,7 @@ export default async function handler(req, res) {
       artist,
       score: '97/110',
       recommendation: 'STRONG BUY',
-      message: 'API LIVE!'
+      message: 'API LIVE! CommonJS FIXED'
     });
   } else {
     res.status(405).json({ error: 'POST only' });

@@ -1,7 +1,6 @@
 {
   "name": "aesthete-memo-v2",
   "version": "1.0.0",
-  "type": "module",
   "engines": {
     "node": "20.x"
   }

@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+module.exports = async (req, res) => {
   if (req.method === 'POST') {
     const { artist } = req.body || {};
     if (!artist) return res.status(400).json({ error: 'Artist required' });

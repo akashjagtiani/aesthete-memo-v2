@@ -7,7 +7,7 @@ module.exports = async (req, res) => {
       artist,
       score: '97/110',
       recommendation: 'STRONG BUY',
-      message: 'API LIVE! CommonJS FIXED'
+      message: 'API LIVE! FIXED STRUCTURE'
     });
   } else {
     res.status(405).json({ error: 'POST only' });
